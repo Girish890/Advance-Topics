@@ -9,9 +9,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    border-radius: 40%;
 }
 
 body {
@@ -26,7 +24,6 @@ body {
 a {
     display: block;
     padding: 8px;
-    /* background-color: #dddddd; */
 }
 
 .navbar {
@@ -45,7 +42,6 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
 }
