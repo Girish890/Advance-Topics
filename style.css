@@ -21,7 +21,7 @@ body {
     float: left;
 }
 
-a {
+a:not([name="link"]) {
     display: block;
     padding: 8px;
 }
@@ -34,7 +34,7 @@ a {
     background-color: #333;
 }
 
-li a {
+li a:not([name="link"]) {
     display: block;
     color: white;
     text-align: center;
@@ -42,7 +42,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+li a:hover:not([name="link"]) {
     background-color: #111;
 }
 
