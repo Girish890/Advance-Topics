@@ -63,3 +63,14 @@ li a:hover:not([name="link"]) {
 .button:hover {
     background-color: #111;
 }
+
+table,
+th,
+td {
+    border: 4px solid black;
+    margin: 20px;
+}
+
+table {
+    width: 80%;
+}
